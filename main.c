@@ -5,19 +5,11 @@
 
 int main(int argc, char *argv[]) {
 	
-	int i;
-	char input[100];
-	FILE *fp;
+	char code1 = 'A';
+	int code2 = 65;
 	
-	fp = fopen("sample.txt", "w");
-	for(i=0; i<3; i++)
-	{
-		printf("input word:");
-		scanf("%s", &input);
-		fprintf(fp, "%s\n", input);
-	}
-
-	fclose(fp);
+	printf("code1 = %c, (%d)\n", code1, code1);
+	printf("code2 = %c, (%d)\n", code2, code2);
 	
 	return 0;
 }
