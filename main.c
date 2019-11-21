@@ -4,12 +4,9 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 int main(int argc, char *argv[]) {
 	
-	char src[] = "I am Suyoung";
-	char dst[100];
-	int i;
+	char str[30] = "I am Suyoung";
 	
-	strcpy(dst, src);
-	printf("copied string: %s\n", dst);
+	printf("string \"%s\" length : %i", str, strlen(str));
 	
 	
 	return 0;
